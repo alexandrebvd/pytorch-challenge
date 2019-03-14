@@ -1,6 +1,18 @@
 # Content: PyTorch Framework
 ## Project: Flowers Classification
 
+### Project overview
+
+You will build an image classifier from scratch that will identify different species of flowers.
+
+### Data
+
+The data set contains around 7000 images of flowers from 102 different species. The provided images were split into a training set and a validation set. You can [download the images from here](https://s3.amazonaws.com/content.udacity-data.com/courses/nd188/flower_data.zip) as a zipped archive. Just uncompress it and you should be good to go.
+
+### Results
+
+It was possible to obtain an accuracy of 98.9% using a pretrained Resnet 152 model on the provided validation set after 27 epochs (18 epochs with only the classifier parameters unfrozen and 9 with all model parameters unfrozen).
+
 ### Install
 
 This project requires **Python 3.7** and the following Python libraries installed:
@@ -35,15 +47,3 @@ jupyter notebook Project_Resnet152_newflowers.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
-
-### Project overview
-
-You will build an image classifier from scratch that will identify different species of flowers.
-
-### Data
-
-The data set contains around 7000 images of flowers from 102 different species. The provided images were split into a training set and a validation set. You can [download the images from here](https://s3.amazonaws.com/content.udacity-data.com/courses/nd188/flower_data.zip) as a zipped archive. Just uncompress it and you should be good to go.
-
-
-### Results
-It was possible to obtain an accuracy of 98.9% using a pretrained Resnet 152 model on the provided validation set with after 27 epochs (18 epochs with only the classifier parameters unfrozen and 9 with all model parameters unfrozen).
